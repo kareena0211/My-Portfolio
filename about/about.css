@@ -112,7 +112,7 @@ nav ul li a {
 .skills-hobbies-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -120,14 +120,14 @@ nav ul li a {
   width: 35%;
   text-align: left;
   padding: 10px;
-  margin: 10px;
+  margin-left: 120px;
 }
 
 .skills-column {
   margin-right: 10px;
 }
 
-.common{
-  background-color: red;
-}
- 
+
+/* .skills-column:hover{
+  background-color: #64748b;
+} */
