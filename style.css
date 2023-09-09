@@ -85,10 +85,11 @@ nav ul li a {
 }
 
 #about {
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   margin-top: 100px;
   border-radius: 3px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 150px;
 }
 
 /* .h2 {
@@ -96,7 +97,7 @@ nav ul li a {
 } */
 
 #projects {
-  border: 2px solid crimson;
+  /* border: 2px solid crimson; */
   background-color: #7dd3fc;
 
   padding: 2rem 0;
