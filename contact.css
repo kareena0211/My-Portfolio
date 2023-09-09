@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #9ca3af;
+  background-color: #f0f0f0;
 }
 
 /* ......................  HEADER SECTION ............................... */
@@ -89,56 +89,18 @@ nav ul li a {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* ..................   image ............................ */
-
-.portfolio-container {
-  /* border: 2px solid red; */
-  margin-top: 150px;
-  height: 67vh;
-  text-align: center;
-  padding: 20px;
-}
-
-.portfolio-image {
-  max-height: 50vh;
-  height: auto;
-  border: 1px solid #ccc;
-}
-
-/* ..................................  hobbies   skills   coulmn   .................. */
-
-.skills-hobbies-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.skills-column,
-.hobbies-column {
-  width: 20%;
-  text-align: left;
-  padding: 10px;
-  margin-left: 120px;
-}
-
-.skills-column {
-  margin-right: 10px;
-}
-
-/* .skills-column:hover{
-  background-color: #64748b;
-} */
-
-/* ............................  contact information */
+/* ........................................  contact information............................... */
 
 .contact-container {
-  background-color: #fecdd3;
-  padding: 18px;
-  /* border: 2px solid #333; */
-  /* border-radius: 6px; */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  height: 73vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  /* background-color: #f0f0f0; */
+  margin-top: 170px;
 }
 
 .contact-heading {
@@ -150,8 +112,16 @@ nav ul li a {
   font-size: 18px;
   color: #007bff;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
 }
 
 .contact-link:hover {
   text-decoration: underline;
+}
+
+.contact-link img {
+  max-width: 24px;
+  margin-right: 10px;
 }
