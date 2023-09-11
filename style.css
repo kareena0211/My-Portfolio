@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* color: #1A2238; */
 }
 
 body {
@@ -11,7 +12,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #9ca3af;
+  /* background-color: #9ca3af; */
 }
 
 /* ......................  HEADER SECTION ............................... */
@@ -22,7 +23,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
+  background-color: #1A2238;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
@@ -45,7 +46,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-  background-color: #333;
+  background-color: #1A2238;
   padding: 0;
 }
 
@@ -53,6 +54,7 @@ nav ul li {
   /* border: 2px solid red; */
 
   margin: 0 0.1rem;
+  border-radius: 5px;
   padding: 0.4rem 2rem;
 }
 
@@ -66,14 +68,14 @@ nav ul li a {
 }
 
 #about {
-  background-color: #f0abfc;
+  background-color: #F4DB7D;
   padding: 2rem;
   text-align: center;
 }
 
 .h2 {
   font-size: 2rem;
-  color: #333;
+  color: #FF6A3D;
   margin-bottom: 1rem;
 }
 
@@ -95,9 +97,11 @@ nav ul li a {
   margin-top: 150px;
 } */
 
+
+
 #projects {
   /* border: 2px solid crimson; */
-  background-color: #7dd3fc;
+  background-color: #E5B9A8;
 
   padding: 2rem 0;
   text-align: center;
@@ -110,7 +114,7 @@ nav ul li a {
 }
 
 .project {
-  background-color: #fed7aa;
+  background-color: #EAD6CD;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 2rem;
@@ -122,7 +126,7 @@ nav ul li a {
 
 .project h3 {
   font-size: 1.5rem;
-  color: #333;
+  color:#1A2238;
   margin-top: 0;
 }
 
@@ -136,7 +140,7 @@ nav ul li a {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background-color: #0078d4;
+  background-color: #1A2238;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -144,8 +148,9 @@ nav ul li a {
 }
 
 .project a:hover {
-  background-color: #333;
-  color: white;
+  background-color: #E5B9A8;
+  color:#1A2238;
+  font-weight: bolder;
 }
 
 /* .........................   contact information    ...................................... */
@@ -191,7 +196,7 @@ nav ul li a {
 .contact-section {
   text-align: center;
   padding: 20px;
-  background-color: #333;
+  background-color:#1A2238;
   color: white;
   border: 1px solid #ddd;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -208,7 +213,7 @@ nav ul li a {
 
 .contact-info a {
   text-decoration: none;
-  color: #007bff;
+  color: #F1B814;
   margin: 0 10px;
   font-size: 18px;
 }
